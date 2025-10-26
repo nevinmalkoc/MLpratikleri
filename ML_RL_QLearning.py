@@ -1,7 +1,5 @@
-import gym
+import gymnasium as gym
 import random
-import numpy as np
-
 import numpy as np
 
 if not hasattr(np, "bool8"):
@@ -32,8 +30,8 @@ done = terminated or truncated
 
 
 
-import gym
-import random
+import gymnasium as gym
+
 import numpy as np
 if not hasattr(np, "bool8"):
     np.bool8 = np.bool_
